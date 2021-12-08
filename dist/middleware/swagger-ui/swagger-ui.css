@@ -8776,6 +8776,9 @@
   display: inline-block;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.1);
+  width: 60vw;
+  overflow: overlay;
+
 }
 .swagger-ui .model-box .model-jump-to-path {
   position: relative;

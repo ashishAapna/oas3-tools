@@ -1,8 +1,8 @@
 {
-  "_from": "oas3-tools",
+  "_from": "git+https://github.com/ashishAapna/oas3-tools.git",
   "_id": "oas3-tools@2.2.3",
   "_inBundle": false,
-  "_integrity": "sha512-3eUllm9ZfPI5OjE5zSqsexYY0CbFtgt0/z4iqpZCg3DBiN+IHdLdM+WqQrTmYR4hTydbebe2WEIIIRqoz5NRKQ==",
+  "_integrity": "",
   "_location": "/oas3-tools",
   "_phantomChildren": {
     "argparse": "1.0.10",
@@ -11,23 +11,21 @@
     "side-channel": "1.0.4"
   },
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "oas3-tools",
-    "name": "oas3-tools",
-    "escapedName": "oas3-tools",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "git+https://github.com/ashishAapna/oas3-tools.git",
+    "rawSpec": "git+https://github.com/ashishAapna/oas3-tools.git",
+    "saveSpec": "git+https://github.com/ashishAapna/oas3-tools.git",
+    "fetchSpec": "https://github.com/ashishAapna/oas3-tools.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/oas3-tools/-/oas3-tools-2.2.3.tgz",
+  "_resolved": "git+https://github.com/ashishAapna/oas3-tools.git#4867f84011177c48a5daccdc877b92e6f76353b6",
   "_shasum": "214a8a7fbe743e24cbafca07b451b1136f72d43d",
-  "_spec": "oas3-tools",
-  "_where": "D:\\chat-niswey\\chat.niswey",
+  "_spec": "git+https://github.com/ashishAapna/oas3-tools.git",
+  "_where": "D:\\chat-niswey\\chat-api",
   "author": {
     "name": "Hugo Mercado",
     "email": "hugo.mario.mercado@gmail.com",
@@ -86,7 +84,7 @@
   "name": "oas3-tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashishAapna/oas3-tools.git"
+    "url": "git+https://github.com/ashishAapna/oas3-tools.git"
   },
   "scripts": {
     "build": "rm -rf dist/ && tsc && cp -R src/middleware/swagger-ui dist/middleware/swagger-ui"
